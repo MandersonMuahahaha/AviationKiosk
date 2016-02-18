@@ -1,0 +1,23 @@
+span.VFR {
+  background-color: #00FF00; 
+  color: #000000;
+  font-weight: bold;
+}
+
+span.MVFR {
+  background-color: #0000FF; 
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+span.IFR {
+  background-color: #FF0000; 
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+span.LIFR {
+  background-color: #FF00FF; 
+  color: #FFFFFF;
+  font-weight: bold;
+}
