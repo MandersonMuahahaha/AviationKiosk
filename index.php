@@ -39,13 +39,15 @@
 					        </h3>
 				        </div>
 				        <div class="panel-body">
-                                          <table border="1" style="background-color:#FFFFFF;border-collapse:collapse;border:1px solid #0000CC;color:#000000;width:100%" cellpadding="3" cellspacing="3">
+                                          <table border="1" style="background-color:#FFFFFF;border-collapse:collapse;border:1px solid #B6B6B6;color:#000000;width:100%" cellpadding="3" cellspacing="3">
 					  <?php
-                                             foreach ($metarArray as $apt => $metar) {
+                                             #foreach ($metarArray as $apt => $metar) {
+                                             foreach ($airports as $apt) {
+                                               $am = $metarArray[$apt];
                                                print "<tr><td>"
                                                       . "<b>$apt</b>"
-                                                      . "<br>Condition: <span class=\"$metar->flight_category\">$metar->flight_category</span>"
-                                                      . "<br>METAR: $metar->raw_text"
+                                                      . "<br>Condition: <span class=\"$am->flight_category\">$am->flight_category</span>"
+                                                      . "<br>METAR: $am->raw_text"
                                                       . "</td></tr>\n";
                                              }
                                           ?>
