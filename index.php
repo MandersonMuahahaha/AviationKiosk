@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body background="img/Background.jpg">
+    <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -60,7 +60,7 @@
 				        </div>
 			        </div>
 		        </div>
-		        <div class="col-md-6">
+		        <div class="col-md-6" style="margin-top: 55px;">
                                 <embed type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="700" height="500" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F111713639493363703799%3Falt%3Drss%26kind%3Dphoto%26access%3Dpublic%26psc%3DF%26q%26uname%3D111713639493363703799" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
 		        </div>
 	        </div>

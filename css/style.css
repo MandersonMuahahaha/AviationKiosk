@@ -21,3 +21,9 @@ span.LIFR {
   color: #FFFFFF;
   font-weight: bold;
 }
+
+body {
+    background-image: url("../img/Background.jpg");
+    background-position: right top;
+    background-attachment: fixed;
+} 

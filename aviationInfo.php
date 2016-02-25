@@ -5,10 +5,15 @@
     'KOLM',
     'KSHN',
     'KTIW',
-    'KSEA',
     'KHQM',
+    'KSEA',
+    'KRNT',
+    'KBFI',
     'KPAE',
-    'KBFI'
+    'KBVS',
+    'KCLS',
+    'KKLS',
+    'KTTD'
   );
 
   $airportMetarInfo = array();
