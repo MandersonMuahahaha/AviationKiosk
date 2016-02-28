@@ -29,9 +29,9 @@
         <div class="container-fluid">
 	        <div class="row">
 		        <div class="col-md-6">
-			        <h3 class="text-muted text-center">
+			        <h2 class="text-muted text-center">
 				       Welcome to <?php echo $fboFullName ?> 
-			        </h3>
+			        </h2>
 			        <div class="panel panel-default">
 				        <div class="panel-heading">
 					        <h3 class="panel-title">
@@ -62,6 +62,9 @@
 		        </div>
 		        <div class="col-md-6" style="margin-top: 55px;">
                                 <embed type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="700" height="500" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F111713639493363703799%3Falt%3Drss%26kind%3Dphoto%26access%3Dpublic%26psc%3DF%26q%26uname%3D111713639493363703799" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+		        </div>
+		        <div class="col-md-6" style="margin-top: 15px;">
+                         <img src="https://icons.wxug.com/data/weather-maps/radar/united-states/tacoma-washington-region-current-radar.gif" width="700" height="500" />
 		        </div>
 	        </div>
         </div>
